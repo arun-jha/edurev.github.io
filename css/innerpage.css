@@ -1,0 +1,113 @@
+
+.ed_innerBox { display: block; background: #2f465c; min-height: 220px; margin-top: -35px; margin-bottom: 30px; padding: 40px 0px; }
+.ed_innerBox .img_box { background: #fff; padding:20px 10px; text-align: center; }
+.ed_innerBox .contantBox { display: block; }
+.ed_innerBox .contantBox h2 { display: block; font-size: 20px; line-height: 28px; color: #fff; font-weight: 500; letter-spacing: 1px; padding-bottom: 10px; }
+.ed_innerBox .contantBox .font12 { display: block; color: #fff; font-size: 12px; font-family: 'Open Sans', sans-serif;}
+.ed_innerBox .contantBox .userIcon { position: relative; margin-right: 5px;  }
+.ed_innerBox .contantBox .ratingTimeList { list-style: none; border-top:1px solid #4c6073; border-bottom:1px solid #4c6073; margin:45px 0 0px 0px; }
+.ed_innerBox .contantBox .ratingTimeList li { display: inline-block; color: #fff; padding: 10px 0; font-size: 16px; font-family: 'Open Sans', sans-serif;
+font-weight: 300; margin-right: 40px; }
+.ed_innerBox .ratingTimeList .listIcon { position: relative; margin-right: 5px;  }
+.ed_innerBox .enrolledBtn { display: block; border:1px solid #4c6073; padding: 11px 20px; text-align: center; font-size: 14px; 
+text-transform: uppercase; color: #fff; min-height: 45px; }
+
+.ed_innerBox .font11 { font-size: 11px; color: #fff; display: block; text-align: center; padding: 5px 0px;font-family: 'Open Sans', sans-serif; }
+.ed_innerBox .leaveCourse { font-size: 12px; color: #afafaf; text-align: center; display: block; padding-top: 40px; letter-spacing: 1px; }
+.lineBox2 {height: 1px; background: #e2e2e2; display: block; margin: 20px 0px; }
+p {font-family: 'Open Sans', sans-serif; line-height: 22px; }
+h4 {font-size: 12px; text-transform: uppercase; color: #141414; font-weight: bold; letter-spacing: 1px; padding-bottom: 10px; }
+
+.ed_mid_box .listing { margin-left: 16px; }
+.ed_mid_box .listing li { font-size: 14px; color: #333; line-height: 22px; }
+.ed_mid_box .listing li>ul>li { color: #173f67; }
+.ed_mid_box .course_content { border:1px solid #c2c2c2; margin-top:5px; border-radius: 4px;  }
+.ed_mid_box .course_content li { border-bottom:1px solid #c2c2c2; padding: 0px 0px;text-indent: -20px; margin-left: 35px; 
+font-family: 'Open Sans', sans-serif; position: relative; }
+.ed_mid_box .course_content li h5 {color: #333; font-weight: bold; padding: 20px 30px 20px 30px; text-indent: -16px; }
+.ed_mid_box .course_content li span { color: #878787; font-weight: 400;display: block;padding-top: 5px; }
+.ed_mid_box .course_content li .arrowBtn { position: absolute; right: 20px; top: 30px; }
+
+.ed_rgt_box .share_box { list-style: none; text-align: center; border:1px solid #e9e9e9; border-radius: 4px; margin-bottom: 20px; padding:20px 0px; }
+.ed_rgt_box .share_box li { display: inline-block; color: #b7b7b7; font-size: 12px; padding: 0 4px; font-family: 'Open Sans', sans-serif;  }
+.ed_rgt_box .share_box li a { color: #b7b7b7; font-size: 16px; }
+.ed_rgt_box .share_box li span {border-right:1px solid #c7c7c7; }
+
+.backNone { background: #fff; border:1px solid #173f67 ;color: #173f67; }
+.ViewMore { color: #005dba; }
+.innerpageNav { display: none; }
+.ed_innerBox .img_box img { width: 100%; }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.course_content .accordion {cursor: pointer;width: 100%; text-align: left;border: none;outline: none;transition: 0.4s;
+background: url("../img/innerpage/bottArrow.png") 97% center no-repeat; }
+/* Style the accordion panel. Note: hidden by default */
+.course_content ul.panel { padding: 0 18px 10px 18px; background-color: #f7f7f7; display: none; border:none;margin-bottom: 0px;box-shadow: none; }
+.course_content .accordion.active  { background: url("../img/innerpage/bottArrow-up.png") 97% center no-repeat #f7f7f7; }
+.ed_mid_box .course_content li ul.panel li span { padding-left: 0px; }
+.ed_mid_box .course_content li ul.panel li {border-bottom: 0;  border-top: 1px solid #cecece; margin-left: 0px; }
+.ed_mid_box .course_content li ul.panel li h5 {padding: 20px 30px 20px 0px; text-indent: 0px; }
+
+.ed_mid_box .course_content li ul.panel li>ul { padding-left:20px; margin-left:10px;background: url(../img/innerpage/grayLine2.png) repeat-y left top;}
+.ed_mid_box .course_content li ul.panel li>ul>li { position: relative; text-indent: 0px; padding: 15px 20px 15px 0; font-size: 14px; color: #173f67;
+ border:0px; }
+.ed_mid_box .course_content li ul.panel li>ul>li span { color: #173f67; }
+.ed_mid_box .course_content li ul.panel li>ul>li .btnn { position: relative; right: 0; float: right; text-align: center; border: 1px solid #173f67;
+border-radius: 2px; color: #173f67; font-size: 12px; padding: 2px 5px; width: 100%; text-decoration: none; }
+.ed_mid_box .course_content li ul.panel li>ul>li .btnn:hover { background: #173f67; color: #fff; }
+.ed_mid_box .course_content li ul.panel li>ul>li strong { height: 10px;
+    width: 10px;
+    border: 2px solid #f7f7f7;
+    border-radius: 100%;
+    background: #d1d1d1;
+    position: absolute;
+    left: -25px;
+    top: 25px; }
+
+
+
+
+
+
+@media (max-width: 767px){
+
+.innerpageNav { display: block; }
+.ed_innerBox { margin-top: 0px; }
+.ed_main .ed_header { background: #fff; margin-bottom: 40px; }
+.hideBox { display: none; }
+.ed_innerBox { padding: 10px 0 20px 0px; background: #fff; }
+.ed_innerBox .img_box { margin-top: -30px; border:1px solid #e1e1e1; }
+.ed_innerBox .contantBox h2 { color: #141414;font-size: 16px; line-height: 22px; }
+.ed_innerBox .contantBox .font12 { color: #333; }
+.ed_innerBox .contantBox .ratingTimeList li { color: #333; }
+.ed_innerBox .contantBox .ratingTimeList li { margin-right: 50px; font-size: 14px; }
+.ed_innerBox .contantBox .ratingTimeList { border-top: 1px solid #e2e2e2 ; border-bottom: 1px solid #e2e2e2;}
+.ed_mid_box .course_content li h5 { line-height: 18px; }
+.ed_mid_box .course_content li ul.panel li>ul>li span { padding-right: 0px; }
+.ed_mid_box .course_content li ul.panel li>ul { padding-left: 10px; }
+.ed_mid_box .course_content li ul.panel li>ul>li strong {left: -15px; }
+.ed_mid_box .course_content li ul.panel li>ul>li { padding-right: 0px; }
+.ed_rgt_box .share_box { margin-top: 20px; }
+.ed_rgt_box .people_box { margin-bottom: 20px; }
+.ed_innerBox { margin-bottom: 10px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
